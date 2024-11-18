@@ -9,7 +9,7 @@ export default function Home() {
 
   return (
     <div className="container">
-      <h1>Welcome to my Portfolio!</h1>
+      <h1>WELCOME TO MY PORTFOLIO!</h1>
       <div className="img-container">
       <div className={classes.slideshow}>
           <ImageSlideshow />

@@ -12,9 +12,9 @@ export default function MainHeader() {
             <h2 className={classes.logo}><Image src={Logo} width={300} height={50} /></h2>
             <nav>
                 <div className={classes.navLinks}>
-                <p><NavLink href="/">Home</NavLink></p>
-                <p><NavLink href="/projects">Projects & Qualifcations</NavLink></p>
-                <p><NavLink href="/about">About me</NavLink></p>
+                <p><NavLink href="/">HOME</NavLink></p>
+                <p><NavLink href="/projects">PROJECTS & QUALIFICATIONS</NavLink></p>
+                <p><NavLink href="/about">ABOUT ME</NavLink></p>
                 </div>
             </nav>
         </header>
