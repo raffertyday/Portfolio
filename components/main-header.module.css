@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Shadows+Into+Light&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.navLinks {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.logo {
+    text-align: center;
+    font-family: "Space Mono", serif;
+    display: flex;
+    align-items: center;
+}
+.navLinks a {
+  display: inline-block;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-decoration: none;
+  text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+  }
+  
+  .navLinks a:hover,
+  .navLinks a:active {
+    background: linear-gradient(90deg, #0093fc, #004469);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 18px rgb(255, 255, 255);
+  }
+  
