@@ -11,7 +11,7 @@ export default function Projects() {
         MY PROJECTS
         </h1>
         <ProjectBox />
-        <Image className='certificate1' src={certificate1} width={1365} height={700}/>
+        <Image className='certificate1' src={certificate1} width={1365} height={700} alt='fullstack webdev qualification certificate' />
         </>
     )
 }

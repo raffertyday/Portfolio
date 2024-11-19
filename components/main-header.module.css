@@ -34,12 +34,19 @@
     border-radius: 0.5rem;
   }
   
-  .navLinks a:hover,
-  .navLinks a:active {
+  .navLinks a:hover {
     background: linear-gradient(90deg, #0093fc, #004469);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-shadow: 0 0 18px rgb(255, 255, 255);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 18px rgb(255, 255, 255);
+  }
+ 
+  .active {
+    background: linear-gradient(90deg, #0093fc, #004469);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 18px rgb(255, 255, 255);
   }
   

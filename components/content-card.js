@@ -9,7 +9,7 @@ export default function Card() {
     return (
       
         <div className="content-card1">
-            <h2><span><Image className='xlogo'width={20} height={20} src={XLogo}/></span> Twitter/X</h2>
+            <h2><span><Image className='xlogo'width={20} height={20} src={XLogo} alt='twitter/x logo' /></span> Twitter/X</h2>
             <p>Username: </p>
             <p><Link href="https://x.com/TCTrader_">@TCTrader</Link></p>
             <p>A fun place to keep up to date with personal progress and individual projects.</p>

@@ -7,6 +7,6 @@ export default function NavLink({href, children}) {
     const path = usePathname();
 
     return ( 
-        <Link href={href}>{children}</Link>
+        <Link href={href} className={path === (href) ? 'active' : undefined}>{children}</Link>
     )
 } 
