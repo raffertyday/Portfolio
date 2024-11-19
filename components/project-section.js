@@ -7,7 +7,7 @@ export default function ProjectBox() {
         <div className={classes.main}>
             <h4>FRONT END</h4>
             <p><Link href="https://github.com/raffertyday/CardsGoneDigital">CardsGoneDigital web-app</Link></p>
-            <p><Link href="https://github.com/raffertyday/DotzWebsite">Dotz `&quot;`10 % mentorship`&quot;` web-app</Link></p>
+            <p><Link href="https://github.com/raffertyday/DotzWebsite">Dotz &quot;10 % mentorship&quot; web-app</Link></p>
             <p><Link href="https://github.com/raffertyday/tradingview-sign-in-design">TradingView Sign-in page</Link></p>
             <h4>BACK END</h4>
             <p><Link href="https://github.com/raffertyday/API-Jokes">Joke genarator using API</Link></p>
